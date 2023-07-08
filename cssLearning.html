@@ -14,6 +14,56 @@
         #summary{
             color: blue;
         }
+        /* this is combinator selector */
+        #summary2, #summary3, h3{
+            color: cadetblue;
+            font-weight: bolder;
+            font-size: larger;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+        .fruit{
+            color: cadetblue;  
+        }
+        .para{
+            color: #000000
+            font-size: 30px;
+            text-transform: capitalize;
+            letter-spacing: 3px;
+            /* text-decoration: underline; */
+           
+            font-weight:bold;
+        
+        }
+        .listfruit{
+            text-align: center;
+            border: 2px solid greenyellow;
+        }
+        .dolor{
+            text-decoration: underline;
+            color: rgb(103, 29, 173);
+        }
+        .education{
+            border: 5px solid rgb(83, 62, 62);
+            /* padding-top: 30px;
+            padding-right: 50px;
+            padding-bottom: 30px;
+            padding-left: 50px; */
+            /* padding: 30px 50px 30px 50px; */
+            /* padding: 30px 50px; */
+            padding: 20px;
+            /* margin-top: 100px;
+            margin-right: 30px;
+            margin-bottom: 100px;
+            margin-left: 50px; */
+            /* margin: 100px 50px; */
+            margin: 50px;
+
+        }
+        .office{
+            border: 2px solid orange;
+            padding: 30px;
+        }
     </style>
 </head>
 <body>
@@ -23,10 +73,26 @@
     <h3 id="summary"> Professional Summary </h3>
     <ul>
         <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        <li id="summary2">Lorem ipsum dolor sit amet.</li>
+        <li id="summary3">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
         <li>Lorem, ipsum dolor.</li>
     </ul>
     <h3>My Permnent adress</h3>
+    <h3 class="listfruit"> List Of Fruits </h3>
+    <ul>
+        <li> Apple </li>
+        <li class="fruit"> Mango </li>
+        <li class="fruit"> Water Melon </li>
+        <li> Grapes </li>
+    </ul>
+    <p class="para"><span class="dolor">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Molestiae nesciunt Lorem, ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, atque!facere mollitia velit officia eum!</p>
+
+    <p class="education">
+        My Education Detail
+    </p>
+
+    <h3 class="office">
+        My Office Address
+    </h3>
 </body>
 </html>
