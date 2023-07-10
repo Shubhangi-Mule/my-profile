@@ -42,6 +42,7 @@
         .dolor{
             text-decoration: underline;
             color: rgb(103, 29, 173);
+            background-color: aqua;
         }
         .education{
             border: 5px solid rgb(83, 62, 62);
@@ -64,6 +65,12 @@
             border: 2px solid orange;
             padding: 30px;
         }
+        .dummy li{
+            list-style-type: square;
+        }
+        .fruit li{
+            list-style-type: lower-roman;
+        }
     </style>
 </head>
 <body>
@@ -71,7 +78,7 @@
     <p style="color: orange; font-weight: bolder; font-size: larger;"> Lorem ipsum dolor sit amet consectetur. </p>
     
     <h3 id="summary"> Professional Summary </h3>
-    <ul>
+    <ul class="dummy">
         <li>Lorem ipsum dolor sit.</li>
         <li id="summary2">Lorem ipsum dolor sit amet.</li>
         <li id="summary3">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
@@ -79,12 +86,12 @@
     </ul>
     <h3>My Permnent adress</h3>
     <h3 class="listfruit"> List Of Fruits </h3>
-    <ul>
+    <ol class="fruit">
         <li> Apple </li>
         <li class="fruit"> Mango </li>
         <li class="fruit"> Water Melon </li>
         <li> Grapes </li>
-    </ul>
+    </ol>
     <p class="para"><span class="dolor">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Molestiae nesciunt Lorem, ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, atque!facere mollitia velit officia eum!</p>
 
     <p class="education">
